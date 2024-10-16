@@ -66,6 +66,18 @@ const definitions: Record<LanguageKey, LanguageDefinition> = {
         monacoDisassembly: null,
         digitSeparator: "'",
     },
+    chkc: {
+        name: 'CheckedC',
+        monaco: 'cppp',
+        extensions: ['.c', '.h', '.chkc', '.chkdc'],
+        alias: ['chkdc'],
+        logoUrl: 'c++.svg',
+        logoUrlDark: null,
+        formatter: 'clangformat',
+        previewFilter: /^\s*#include/,
+        monacoDisassembly: null,
+        digitSeparator: "'",
+    },
     ada: {
         name: 'Ada',
         monaco: 'ada',

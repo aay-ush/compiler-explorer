@@ -29,6 +29,7 @@ export type LanguageKey =
     | 'android-kotlin'
     | 'assembly'
     | 'c'
+    | 'chkc'
     | 'c++'
     | 'c3'
     | 'carbon'
