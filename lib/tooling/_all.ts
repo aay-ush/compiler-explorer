@@ -42,3 +42,4 @@ export {x86to6502Tool} from './x86to6502-tool.js';
 export {TestingTool} from './testing-tool.js';
 export {BloatyTool} from './bloaty-tool.js';
 export {ThreeCTool} from './three-c-tool.js';
+export {CCDTool} from './ccd-tool.js';
